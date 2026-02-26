@@ -89,6 +89,16 @@ public final class Result<T> implements Serializable {
         return "Success(" + value + ")";
     }
 
+    @Override
+    public boolean equals(final @Nullable Object other) {
+        return other instanceof Result && Objects.equals(value, ((Result<?>) other).value);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(value);
+    }
+
     /**
      * @return an instance that encapsulates the given {@code value} as successful value.
      */
