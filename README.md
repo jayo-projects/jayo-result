@@ -4,7 +4,8 @@
 
 # Jayo result
 
-Jayo result is a Java port of the `Result<T>` type from the Kotlin stdlib.
+Since the JVM doesn't provide its own buitin Result type, Jayo result provides a Java port of the `Result<T>` type from
+the Kotlin stdlib.
 
 It is available on Maven Central.
 
