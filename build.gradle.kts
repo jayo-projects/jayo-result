@@ -72,7 +72,7 @@ publishing {
         withType<MavenPublication> {
             pom {
                 name.set(project.name)
-                description.set("Jayo result is a Java port of the Result<T> type from the Kotlin stdlib")
+                description.set("Jayo Result is a Java port of the Result<T> type from the Kotlin stdlib")
                 url.set("https://github.com/jayo-projects/jayo-result")
 
                 licenses {

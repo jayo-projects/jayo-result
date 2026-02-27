@@ -7,7 +7,8 @@
 Since the JVM doesn't provide its own buitin Result type yet, Jayo Result provides a Java port of the `Result<T>` type
 from the Kotlin stdlib.
 
-If by any chance the JVM provides a `Result<T>` type in an upcoming release, this API would then be adapted to it.
+If by any chance the JVM provides a `Result<T>` type in an upcoming release, that would be a good candidate to be a
+Valhalla's value class, this API would then be adapted to match it.
 
 It is available on Maven Central.
 
