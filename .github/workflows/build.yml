@@ -1,4 +1,4 @@
-name: Build Jayo result on every push
+name: Build Jayo Result on every push
 
 on: [ push ]
 

@@ -27,10 +27,9 @@ repositories {
 dependencies {
     api("org.jspecify:jspecify:${catalogVersion("jspecify")}")
 
-    testImplementation(platform("org.junit:junit-bom:${catalogVersion("junit")}"))
-    testImplementation("org.junit.jupiter:junit-jupiter")
+    testImplementation("org.junit.jupiter:junit-jupiter:${catalogVersion("junit")}")
 
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher:${catalogVersion("junit")}")
 }
 
 java {

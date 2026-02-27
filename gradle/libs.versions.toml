@@ -18,6 +18,3 @@ junit = "6.0.2"
 
 [plugins]
 release = { id = "net.researchgate.release", version.ref = "release" }
-
-[libraries]
-jspecify = { group = "org.jspecify", name = "jspecify", version.ref = "jspecify" }
